@@ -1,0 +1,64 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+
+audio {
+   display:none;
+}
+
+body{
+display: block;
+margin-left: 10%;
+margin-right:10%;
+filter: drop-shadow(1px 0px 30px white);
+padding: 10px;
+background-image: url("Star.gif");
+
+}
+.menu
+{
+width: 10;
+height: 40px;
+background-image: url("r.jpg");
+background-repeat: repeat-x;
+
+}
+
+.contact
+{
+
+  margin-left: 25%;
+
+}
+
+li {display: inline;
+}
+
+.m {
+color:white;
+font-size:20px;
+font-family:tohama;
+}
+
+header{
+  height:300px;
+  background-image: url("b.jpg");
+  background-size: cover;
+  display:grid;
+}
+
+
+h2.name{
+
+font-size:45px;
+justify-items:center;
+align-items:center;
+margin: 20px;
+-webkit-transition: color 2s; /* For Safari 3.0 to 6.0 */
+transition: color 2s; /* For modern browsers */
+}
+h2.name:hover {
+color:red;
+
+    }
